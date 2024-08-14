@@ -1,0 +1,50 @@
+/* Inherits from light theme styles */
+@import 'styles.css';
+
+/* Dark Theme Specific Styles */
+body {
+    background-color: #18191a;
+    color: #e4e6eb;
+}
+header .theme-txt{
+    position: relative;
+    right: 25px;
+    font-weight: bold;
+    color: #e4e6eb;
+}
+
+
+.login_box nav a {
+    background-color: #3a3b3c;
+    color: #e4e6eb;
+}
+
+.login_box nav a:hover {
+    background-color: #555759;
+}
+
+p {
+    color: #b0b3b8;
+}
+
+.login-container,
+.create-account-container {
+    background-color: #242526;
+    color: #e4e6eb;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="date"] {
+    background-color: #3a3b3c;
+    border: 1px solid #3a3b3c;
+    color: #e4e6eb;
+}
+
+form input::placeholder {
+    color: #b0b3b8;
+}
+
+.gender-selection label {
+    color: #e4e6eb;
+}

@@ -1,0 +1,147 @@
+/* Common Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    justify-content: center;
+}
+
+#theme-icon {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.login_box nav {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.login_box nav a {
+    background-color: #1877f2;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 15px; /* Increased margin for better spacing */
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login_box nav a:hover {
+    background-color: #155db3;
+}
+
+/* Main content */
+main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #606770;
+}
+
+/* Login & Create Account Forms */
+.login-container,
+.create-account-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login-container h1,
+.create-account-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="date"] {
+    width: 85%;
+    padding: 10px 20px 10px 10px; /* Added right-padding */
+    margin: 8px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+    background-color: #f5f6f7;
+    color: #1c1e21;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+form input::placeholder {
+    color: #606770;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #155db3;
+}
+
+form a {
+    display: block;
+    margin-top: 10px;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+.gender-selection {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.gender-selection label {
+    font-size: 14px;
+    color: #1c1e21;
+    transition: color 0.3s;
+}
+
+.gender-selection input {
+    margin-right: 5px;
+}
+
+/* Light Theme Specific Styles */
+body {
+    background-color: #f0f2f5;
+    color: #1c1e21;
+}

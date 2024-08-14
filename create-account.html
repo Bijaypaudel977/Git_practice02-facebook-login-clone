@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="styles.css" id="theme-link">
+</head>
+<body>
+    <header>
+        <img src="assets/theme-icon.png" id="theme-icon" alt="Theme Icon">
+    </header>
+    <div class="create-account-container">
+        <h1>Create a New Account</h1>
+        <form action="#" method="post">
+            <input type="text" name="first_name" placeholder="First Name" required>
+            <input type="text" name="last_name" placeholder="Last Name" required>
+            <input type="text" name="email" placeholder="Mobile Number or Email" required>
+            <input type="password" name="password" placeholder="New Password" required>
+            <input type="date" name="birthday" required>
+            <div class="gender-selection">
+                <label><input type="radio" name="gender" value="female" required> Female</label>
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="custom"> Confidential</label>
+            </div>
+            <button type="submit">Sign Up</button>
+            <a href="login.html">Already have an account? Log In</a>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
